@@ -30,6 +30,7 @@ import Crashes from 'appcenter-crashes'
 class App extends React.Component {
 
   render() {
+    console.log("Sdfsdf")
     return (
       <SafeAreaView style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <TouchableOpacity onPres={() => Crashes.generateTestCrash()}>
